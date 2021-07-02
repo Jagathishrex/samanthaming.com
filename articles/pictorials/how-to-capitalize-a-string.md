@@ -73,7 +73,7 @@ Awesome! We have successfully capitalize our string 🥳
 **Using charAt**
 
 ```javascript
-function capitalize(word) {
+function capitalize(str) {
   const lower = str.toLowerCase();
   return str.charAt(0).toUpperCase() + lower.slice(1);
 }
